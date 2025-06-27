@@ -1,5 +1,6 @@
 # aniPyFLV
 DEPENDENCIAS:
+
   Dependencias externas a python:
     mpv: reproductor multimedia usado, facil de instalar en Windows, Linux y MacOS, con los episodios con mas info puede mostrar inicio/fin de opening y ending
     megatools: sirve para descargar episodios de MEGA
@@ -21,6 +22,7 @@ DEPENDENCIAS:
   
 
 FUNCIONAMIENTO:
+
   Se trata de un programa por terminal hecho en python (se ejecuta como un programa normal de python), que nos pedirá el nombre del anime que queremos ver (puede ser español/japones, ojo con los nombres, y sensible a upper/lower case.
   Despues, aunque el anime exista, es posible que nos de error y se finalice el programa, ya que a veces estas apis o incluso MEGA tienen mecanismos para evitar cosas como peticiones directas al server (como hace esta app), basta con revisar si hemos escrito el nombre bien e insistir hasta que la ejecucion del programa continue normalmente.
   Luego de buscar el anime nos aparecera una serie de temporadas/episodios con un indice, seleccionamos el indice que queremos y se inicia la descarga del episodio.
